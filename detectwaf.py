@@ -1,4 +1,4 @@
-import re
+import requests
 from urllib.parse import urlparse
 
 def detect_waf(api_url):
